@@ -2,7 +2,7 @@
 
 ## Overview of the analysis: 
 
-Explain the purpose of this analysis.
+The purpose of this analysis is to help Beks create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
 
 ## Results: 
 Using bulleted lists and images to support your answers, address the following questions.
