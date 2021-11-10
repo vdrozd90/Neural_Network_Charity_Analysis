@@ -5,16 +5,15 @@
 The purpose of this analysis is to help Beks create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.
 
 ## Results: 
-Using bulleted lists and images to support your answers, address the following questions.
 
 ### Data Preprocessing
-- What variable(s) are considered the target(s) for your model?
-- What variable(s) are considered to be the features for your model?
-- What variable(s) are neither targets nor features, and should be removed from the input data?
+- "IS_SUCCESSFUL" is the target variable for the model
+- APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME_AMT, SPECIAL_CONSIDERATIONS, ASK_AMT, IS_SUCCESSFUL. Are considered to be the features for the model
+- "EIN" and "NAME" are neither targets nor features, and have beenremoved frome the input data
 
 ### Compiling, Training, and Evaluating the Model
-- How many neurons, layers, and activation functions did you select for your neural network model, and why?
-- Were you able to achieve the target model performance?
+- Attempt 1 of the model contained 2 hidden layers. Hidden layer 1 had 18 neurons, and 9 in the second
+- The target model performance was not achieved on attempt 1 of creating the neural netowrk model. The models accuracy was approximatley 70%
 - What steps did you take to try and increase model performance?
 
 ## Summary: 
